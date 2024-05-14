@@ -1,0 +1,18 @@
+.component-button-panel {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1 0 auto;
+  width:30%;
+  padding: 20px;
+  border-radius: 0px 0px 30px 30px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.component-button-panel > div {
+  width: 100%;
+  flex: 1 0 auto;
+  display: flex;
+}
+
