@@ -1,13 +1,11 @@
-import React from "react";
-import "./Display.css";
+import React from 'react';
 
-export default class Display extends React.Component {
-  render() {
-    const { value } = this.props;
-    return (
-      <div className="component-display">
-        <div>{value}</div>
-      </div>
-    );
-  }
-}
+function Display ({value}){
+  return (
+    <div className="display">
+      {value}
+    </div>
+  );
+};
+
+export default Display;
